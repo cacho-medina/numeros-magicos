@@ -12,7 +12,7 @@ const info = document.querySelector(".info");
 info.innerText = `Tienes ${intentos} para lograrlo!`;
 function show() {
     btn.setAttribute("class", "d-none");
-    ingreso.setAttribute("class", "d-flex col-4");
+    ingreso.setAttribute("class", "d-flex col-12 col-md-6 col-lg-4");
     aleatorio = getAleatorio();
 }
 const resultado = document.getElementById("resultado");
